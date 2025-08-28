@@ -48,6 +48,7 @@ body {
     border: 1px solid white;
     box-shadow: 2px 2px 10px #ffffffd0;
     margin-bottom: 25px;
+    transition: 0.5s;
 }
 
 .whats a{
@@ -84,4 +85,9 @@ body {
     width: 60px;
     background-color: #BF9D33;
     border-radius: 28px 0 0 28px;
+}
+
+.whats:hover, .catalogo:hover{
+    background-color: #BF9D33;
+    color: #000000;
 }
