@@ -13,7 +13,7 @@ body {
     align-items: center;    /* Centraliza na vertical */
     height: 100vh;          /* Faz o body ocupar a tela toda */
     background-image: linear-gradient(to top,#000000, #7b5600,  #dfa105 );
-    background-position: center center;
+    overflow:hidden;
 }
 
 .caixa{
